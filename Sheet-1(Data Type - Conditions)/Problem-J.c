@@ -3,6 +3,7 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
+    // conditions
     if(a%b == 0 || b%a == 0)
         printf("Multiples");
     else
